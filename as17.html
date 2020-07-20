@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>
+        REWARDING EMPLOYEES ON THE BASIS OF SALES
+    </H2>
+    <script>
+        //SALES COMMISION
+        let res;
+        let x=Number(prompt("ENTER THE SALES MADE BY YOU: "))
+        if(x>0 && x<=5000){
+            console.log("COMISSION EARNED :2%")
+             res=x+(.02*x)
+            console.log("TOTAL COMISSION EARNED: "+res)
+        }
+        if(x>5000 && x<=10000){
+            console.log("COMISSION EARNED :5%")
+             res=x+(.05*x)
+            console.log("TOTAL COMISSION EARNED: "+res)
+        }
+        if(x>10000 && x<=20000){
+            console.log("COMISSION EARNED :7%")
+             res=x+(.07*x)
+            console.log("TOTAL COMISSION EARNED: "+res)
+        }
+        if(x>20000 ){
+            console.log("COMISSION EARNED :10%")
+             res=x+(.1*x)
+            console.log("TOTAL COMISSION EARNED: "+res)
+        }
+
+
+    </script>
+</body>
+</html>
